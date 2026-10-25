@@ -8,6 +8,22 @@ Lorsqu'un client achète un nounours, le site enregistre sa commande dans une ba
 
 Ce projet a été réalisé dans le cadre d'un TP du cours de PHP en 2e année de Licence (Analyse et Programmation) à l'ESGAE, en novembre 2024.
 
+## À propos de ce dépôt
+
+Ce dépôt constitue à la fois une sauvegarde en ligne du projet Louvakou et une archive de mon parcours académique. Il permet de conserver une trace de ce mini-projet réalisé en deuxième année à l'ESGAE, en novembre 2024, dans le cadre du cours de PHP.
+
+L'objectif est de préserver ce travail dans son état d'origine et de rendre accessible un aperçu concret de mes premières réalisations en développement web. Il s'inscrit dans une démarche de documentation et de valorisation progressive des projets réalisés au cours de ma formation.
+
+### À propos de la démo en ligne
+
+La [démo hébergée sur GitHub Pages](https://kazeholloway.github.io/louvakou-TP-PHP/) permet de découvrir les premières pages du site et de naviguer dans son interface. Toutefois, GitHub Pages est un service d'hébergement de sites statiques : il ne dispose pas d'un serveur PHP capable d'exécuter les scripts du projet.
+
+Par conséquent, les pages reposant sur PHP, notamment `connexion.php` et `script.php`, ne peuvent pas fonctionner normalement dans cette démo et peuvent renvoyer une erreur **`405 Not Allowed`**. Ce comportement est attendu dans cet environnement et ne signifie pas nécessairement que le code PHP est défectueux.
+
+Pour tester le fonctionnement complet du projet, notamment le traitement des commandes, l'authentification et les interactions avec la base de données MySQL, il est nécessaire de cloner le dépôt et de suivre le guide d'installation ci-dessous dans un environnement local compatible, tel que XAMPP.
+
+**En résumé :** la démo en ligne sert à découvrir le projet, tandis que l'installation locale permet d'en tester les fonctionnalités PHP et MySQL.
+
 ## Objectifs du projet
 
 - Concevoir un formulaire d'achat de nounours.
@@ -137,8 +153,8 @@ Merci d'avoir utilisé nos services !!
 
 **Réalisé par :**
 
-- BATA Grâce Deo
 - MASSAMBA BOUESSO Christophe Darly
+- BATA Grâce Deo
 
 **Sous la supervision de :** M. KIGOMA Ornel, Ingénieur Informaticien
 
@@ -146,7 +162,6 @@ Merci d'avoir utilisé nos services !!
 
 ## Liens
 
-- [Démo du site — GitHub Pages](https://kazeholloway.github.io/louvakou-TP-PHP/)
-- [Dépôt GitHub du projet](https://github.com/KazeHolloway/louvakou-TP-PHP)
-- [GitHub de Kaze Holloway](https://github.com/KazeHolloway)
+- [Démo du site (GitHub Pages)](https://kazeholloway.github.io/louvakou-TP-PHP/)
+- [GitHub de Christophe Darly](https://github.com/KazeHolloway)
 - [GitHub de Grâce Deo](https://github.com/jiramaru)
