@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Louvakou</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div id="header">
+            <div class="logo">
+                <span>LOUVAKOU</span>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="achat.html">Achat</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <h1>Page d'authentification</h1>
+
+        <div class="card">
+            
+            <form action="connexion.php" method="post">
+
+                    <div class="inputField">
+                        <label for="username">User Name</label>
+                        <input type="text" name="username" id="username" placeholder="Entrer your user name" required><br>
+                    </div>
+                    
+                    <div class="inputField">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Entrer the password" required><br>
+                    </div>
+                    
+
+                    <input type="submit" value="Submit" name="ok" class="button">
+
+            </form>
+        </div>
+        
+        
+    </body>
+</html>

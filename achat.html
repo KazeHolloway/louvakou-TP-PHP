@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louvakou</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="logo">
+            <span>LOUVAKOU</span>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="achat.html">Achat</a></li>
+                <li><a href="connexion.html">Commandes</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1>Formulaire d'achat</h1>
+
+    <div class="card">
+
+        <form action="script.php" method="post">
+            <div class="inputField">
+                <label for="name">Nom</label>
+                <input type="text" name="name" id="name" placeholder="Entrer votre nom" required><br>
+            </div>
+
+            <div class="inputField">
+                <label for="lastName">Prénom</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Entrer votre prénom" required><br>
+            </div>
+
+            <div class="inputField">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Entrer votre Email" required><br>
+            </div>
+
+            <div class="inputField">
+                <label for="adress">Adresse De Livraison</label>
+                <input type="text" name="adress" id="adress" placeholder="Entrer l'adresse" required><br>
+            </div>
+
+            <div class="inputField">
+                <label for="quantity">Quantité De Nounours</label>
+                <input type="number" name="quantity" id="quantity" placeholder="Entrer la quantité" required><br>
+            </div>
+
+            <div class="inputField">
+                <label for="color">Couleur Du Nounours</label>
+                <input type="text" name="color" id="color" placeholder="Entrer la Couleur" required> <br>
+            </div>
+
+            <div class="inputField">
+                <label for="price">Prix Unitaire</label>
+                <input type="number" step="0.01" name="price" id="price" placeholder="Entrer le prix" required> <br>
+                <br>
+            </div>
+
+            <input type="submit" value="Acheter" name="Envoyer" class="button">
+
+        </form>
+    </div>
+
+</body>
+
+</html>
